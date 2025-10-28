@@ -1,0 +1,549 @@
+{
+  "power": {
+    "01EPU01310300-05": "group_2"
+  },
+  "foundation": {
+    "01EPU01310300-05": "rigid"
+  },
+  "rpm": {
+    "01EPU01310300-05": {
+      "1": {
+        "reference": "Fixed",
+        "value": 2850.0
+      },
+      "2": {
+        "reference": "Fixed",
+        "value": 2850.0
+      },
+      "3": {
+        "reference": "Fixed",
+        "value": 2850.0
+      },
+      "4": {
+        "reference": "Fixed",
+        "value": 2850.0
+      }
+    }
+  },
+  "machine_type": {
+    "01EPU01310300-05": "Electro Pump"
+  },
+  "machine_name": {
+    "01EPU01310300-05": "Pump-01EPU01310300-05"
+  },
+  "machine_part_static": {
+    "01EPU01310300-05": {
+      "M": [
+        "1",
+        "2"
+      ],
+      "Pump": [
+        "3",
+        "4"
+      ]
+    }
+  },
+  "machine_part_type": {
+    "01EPU01310300-05": {
+      "M": "Electromotor",
+      "Pump": "Pump"
+    }
+  },
+  "priority": {
+    "01EPU01310300-05": "One"
+  },
+  "data_collection_period": {
+    "01EPU01310300-05": "One Month"
+  },
+  "fan_type": {
+    "01EPU01310300-05": "over_hung"
+  },
+  "bearing": {
+    "01EPU01310300-05": {
+      "1": [
+        {
+          "Type": null,
+          "TechnicalNumber": null,
+          "LubricationType": null
+        }
+      ],
+      "2": [
+        {
+          "Type": null,
+          "TechnicalNumber": null,
+          "LubricationType": null
+        }
+      ],
+      "3": [
+        {
+          "Type": null,
+          "TechnicalNumber": null,
+          "LubricationType": null
+        }
+      ],
+      "4": [
+        {
+          "Type": null,
+          "TechnicalNumber": null,
+          "LubricationType": null
+        }
+      ]
+    }
+  },
+  "Customer_failure_weight": {
+    "01EPU01310300-05": {
+      "Unbalance": {
+        "high_rpm": {
+          "1X_score": 1,
+          "sine_wave": 1,
+          "1X/harmonica": 1,
+          "1X/Overall": 1,
+          "Amplitude_ISO_Vel_rms": 1,
+          "Amplitude_ISO_Crest_rms": 1,
+          "Amplitude_Similar_Vel_rms": 1,
+          "Amplitude_Similar_Crest_rms": 1,
+          "Direction_Sequence_Vel_rms": 1,
+          "Direction_Sequence_1X": 1,
+          "Direction_Ratio_Vel_rms": 1,
+          "Direction_Ratio_1X": 1,
+          "Angle_Vel_rms": 1,
+          "Angle_1X": 1,
+          "Trend_Vel_rms": 1,
+          "Trend_1X": 1,
+          "Constant_Slope_Vel_rms": 1,
+          "Constant_Slope_1X": 1,
+          "Focus_Vel_rms": 1,
+          "Focus_1X": 1
+        },
+        "mid_rpm": {
+          "1X_score": 1,
+          "sine_wave": 1,
+          "1X/harmonica": 1,
+          "1X/Overall": 1,
+          "Amplitude_ISO_Vel_rms": 1,
+          "Amplitude_ISO_Crest_rms": 1,
+          "Amplitude_Similar_Vel_rms": 1,
+          "Amplitude_Similar_Crest_rms": 1,
+          "Direction_Sequence_Vel_rms": 1,
+          "Direction_Sequence_1X": 1,
+          "Direction_Ratio_Vel_rms": 1,
+          "Direction_Ratio_1X": 1,
+          "Angle_Vel_rms": 1,
+          "Angle_1X": 1,
+          "Trend_Vel_rms": 1,
+          "Trend_1X": 1,
+          "Constant_Slope_Vel_rms": 1,
+          "Constant_Slope_1X": 1,
+          "Focus_Vel_rms": 1,
+          "Focus_1X": 1
+        },
+        "low_rpm": {
+          "1X_score": 1,
+          "sine_wave": 1,
+          "1X/harmonica": 1,
+          "1X/Overall": 1,
+          "Amplitude_ISO_Vel_rms": 1,
+          "Amplitude_ISO_Crest_rms": 1,
+          "Amplitude_Similar_Vel_rms": 1,
+          "Amplitude_Similar_Crest_rms": 1,
+          "Direction_Sequence_Vel_rms": 1,
+          "Direction_Sequence_1X": 1,
+          "Direction_Ratio_Vel_rms": 1,
+          "Direction_Ratio_1X": 1,
+          "Angle_Vel_rms": 1,
+          "Angle_1X": 1,
+          "Trend_Vel_rms": 1,
+          "Trend_1X": 1,
+          "Constant_Slope_Vel_rms": 1,
+          "Constant_Slope_1X": 1,
+          "Focus_Vel_rms": 1,
+          "Focus_1X": 1
+        }
+      },
+      "Structural Looseness": {
+        "high_rpm": {
+          "1X_score": 1,
+          "sine_wave": 1,
+          "1X/Overall": 1,
+          "Amplitude_ISO_Vel_rms": 1,
+          "Amplitude_Similar_Vel_rms": 1,
+          "Direction_Sequence_Vel_rms_structure": 1,
+          "Direction_Sequence_1X_structure": 1,
+          "Angle_Vel_rms_structure": 1,
+          "Angle_1X_structure": 1,
+          "Trend_Vel_rms_structure": 1,
+          "Trend_1X_structure": 1,
+          "Constant_Slope_Vel_rms_structure": 1,
+          "Constant_Slope_1X_structure": 1,
+          "Focus_Vel_rms_structure": 1,
+          "Focus_1X_structure": 1
+        },
+        "mid_rpm": {
+          "1X_score": 1,
+          "sine_wave": 1,
+          "1X/Overall": 1,
+          "Amplitude_ISO_Vel_rms": 1,
+          "Amplitude_Similar_Vel_rms": 1,
+          "Direction_Sequence_Vel_rms_structure": 1,
+          "Direction_Sequence_1X_structure": 1,
+          "Angle_Vel_rms_structure": 1,
+          "Angle_1X_structure": 1,
+          "Trend_Vel_rms_structure": 1,
+          "Trend_1X_structure": 1,
+          "Constant_Slope_Vel_rms_structure": 1,
+          "Constant_Slope_1X_structure": 1,
+          "Focus_Vel_rms_structure": 1,
+          "Focus_1X_structure": 1
+        },
+        "low_rpm": {
+          "1X_score": 1,
+          "sine_wave": 1,
+          "1X/Overall": 1,
+          "Amplitude_ISO_Vel_rms": 1,
+          "Amplitude_Similar_Vel_rms": 1,
+          "Direction_Sequence_Vel_rms_structure": 1,
+          "Direction_Sequence_1X_structure": 1,
+          "Angle_Vel_rms_structure": 1,
+          "Angle_1X_structure": 1,
+          "Trend_Vel_rms_structure": 1,
+          "Trend_1X_structure": 1,
+          "Constant_Slope_Vel_rms_structure": 1,
+          "Constant_Slope_1X_structure": 1,
+          "Focus_Vel_rms_structure": 1,
+          "Focus_1X_structure": 1
+        }
+      },
+      "Mechanical Looseness": {
+        "high_rpm": {
+          "1X_score": 1,
+          "2X_score": 1,
+          "3X_score": 1,
+          "4X_score": 1,
+          "5X_score": 1,
+          "harmonic": 1,
+          "1X/Overall": 1,
+          "1X_2X_3X/harmonicas": 1,
+          "3X_4X_5X/harmonicas": 1,
+          "signal_displacement": 1,
+          "Amplitude_ISO_Vel_rms": 1,
+          "Amplitude_ISO_Crest_rms": 1,
+          "Amplitude_Similar_Vel_rms": 1,
+          "Amplitude_Similar_Crest_rms": 1,
+          "Direction_Sequence_Vel_rms_mechanic": 1,
+          "Direction_Sequence_2X_mechanic": 1,
+          "Direction_Sequence_3X_mechanic": 1,
+          "Direction_Sequence_4X_mechanic": 1,
+          "Direction_Sequence_5X_mechanic": 1,
+          "Angle_Vel_rms_mechanic": 1,
+          "Angle_1X_mechanic": 1,
+          "Angle_2X_mechanic": 1,
+          "Angle_3X_mechanic": 1,
+          "Angle_4X_mechanic": 1,
+          "Angle_5X_mechanic": 1,
+          "Trend_Vel_rms_mechanic": 1,
+          "Trend_1X_mechanic": 1,
+          "Trend_2X_mechanic": 1,
+          "Trend_3X_mechanic": 1,
+          "Trend_4X_mechanic": 1,
+          "Trend_5X_mechanic": 1,
+          "Variable_Slope_Vel_rms_mechanic": 1,
+          "Variable_Slope_1X_mechanic": 1,
+          "Variable_Slope_2X_mechanic": 1,
+          "Variable_Slope_3X_mechanic": 1,
+          "Variable_Slope_4X_mechanic": 1,
+          "Variable_Slope_5X_mechanic": 1
+        },
+        "mid_rpm": {
+          "1X_score": 1,
+          "2X_score": 1,
+          "3X_score": 1,
+          "4X_score": 1,
+          "5X_score": 1,
+          "harmonic": 1,
+          "1X/Overall": 1,
+          "1X_2X_3X/harmonicas": 1,
+          "3X_4X_5X/harmonicas": 1,
+          "signal_displacement": 1,
+          "Amplitude_ISO_Vel_rms": 1,
+          "Amplitude_ISO_Crest_rms": 1,
+          "Amplitude_Similar_Vel_rms": 1,
+          "Amplitude_Similar_Crest_rms": 1,
+          "Direction_Sequence_Vel_rms_mechanic": 1,
+          "Direction_Sequence_2X_mechanic": 1,
+          "Direction_Sequence_3X_mechanic": 1,
+          "Direction_Sequence_4X_mechanic": 1,
+          "Direction_Sequence_5X_mechanic": 1,
+          "Angle_Vel_rms_mechanic": 1,
+          "Angle_1X_mechanic": 1,
+          "Angle_2X_mechanic": 1,
+          "Angle_3X_mechanic": 1,
+          "Angle_4X_mechanic": 1,
+          "Angle_5X_mechanic": 1,
+          "Trend_Vel_rms_mechanic": 1,
+          "Trend_1X_mechanic": 1,
+          "Trend_2X_mechanic": 1,
+          "Trend_3X_mechanic": 1,
+          "Trend_4X_mechanic": 1,
+          "Trend_5X_mechanic": 1,
+          "Variable_Slope_Vel_rms_mechanic": 1,
+          "Variable_Slope_1X_mechanic": 1,
+          "Variable_Slope_2X_mechanic": 1,
+          "Variable_Slope_3X_mechanic": 1,
+          "Variable_Slope_4X_mechanic": 1,
+          "Variable_Slope_5X_mechanic": 1
+        },
+        "low_rpm": {
+          "1X_score": 1,
+          "2X_score": 1,
+          "3X_score": 1,
+          "4X_score": 1,
+          "5X_score": 1,
+          "harmonic": 1,
+          "1X/Overall": 1,
+          "1X_2X_3X/harmonicas": 1,
+          "3X_4X_5X/harmonicas": 1,
+          "signal_displacement": 1,
+          "Amplitude_ISO_Vel_rms": 1,
+          "Amplitude_ISO_Crest_rms": 1,
+          "Amplitude_Similar_Vel_rms": 1,
+          "Amplitude_Similar_Crest_rms": 1,
+          "Direction_Sequence_Vel_rms_mechanic": 1,
+          "Direction_Sequence_2X_mechanic": 1,
+          "Direction_Sequence_3X_mechanic": 1,
+          "Direction_Sequence_4X_mechanic": 1,
+          "Direction_Sequence_5X_mechanic": 1,
+          "Angle_Vel_rms_mechanic": 1,
+          "Angle_1X_mechanic": 1,
+          "Angle_2X_mechanic": 1,
+          "Angle_3X_mechanic": 1,
+          "Angle_4X_mechanic": 1,
+          "Angle_5X_mechanic": 1,
+          "Trend_Vel_rms_mechanic": 1,
+          "Trend_1X_mechanic": 1,
+          "Trend_2X_mechanic": 1,
+          "Trend_3X_mechanic": 1,
+          "Trend_4X_mechanic": 1,
+          "Trend_5X_mechanic": 1,
+          "Variable_Slope_Vel_rms_mechanic": 1,
+          "Variable_Slope_1X_mechanic": 1,
+          "Variable_Slope_2X_mechanic": 1,
+          "Variable_Slope_3X_mechanic": 1,
+          "Variable_Slope_4X_mechanic": 1,
+          "Variable_Slope_5X_mechanic": 1
+        }
+      },
+      "Misalignment": {
+        "high_rpm": {
+          "1X_score": 1,
+          "2X_score": 1,
+          "3X_score": 1,
+          "sine_wave": 1,
+          "1X_2X_3X/harmonicas": 1,
+          "MW": 1,
+          "Amplitude_ISO_Vel_rms": 1,
+          "Amplitude_ISO_Crest_rms": 1,
+          "Amplitude_Similar_Vel_rms": 1,
+          "Amplitude_Similar_Crest_rms": 1,
+          "Direction_Sequence_Vel_rms": 1,
+          "Direction_Sequence_1X": 1,
+          "Direction_Sequence_2X": 1,
+          "Direction_Sequence_3X": 1,
+          "Direction_Ratio_Vel_rms": 1,
+          "Direction_Ratio_1X": 1,
+          "Direction_Ratio_2X": 1,
+          "Direction_Ratio_3X": 1,
+          "Angle_Vel_rms": 1,
+          "Angle_1X": 1,
+          "Angle_2X": 1,
+          "Angle_3X": 1,
+          "Trend_Vel_rms": 1,
+          "Trend_1X": 1,
+          "Trend_2X": 1,
+          "Trend_3X": 1,
+          "Constant_Slope_Vel_rms": 1,
+          "Constant_Slope_1X": 1,
+          "Constant_Slope_2X": 1,
+          "Constant_Slope_3X": 1,
+          "Focus_Vel_rms": 1,
+          "Focus_1X": 1,
+          "Focus_2X": 1,
+          "Focus_3X": 1
+        },
+        "mid_rpm": {
+          "1X_score": 1,
+          "2X_score": 1,
+          "3X_score": 1,
+          "sine_wave": 1,
+          "1X_2X_3X/harmonicas": 1,
+          "MW": 1,
+          "Amplitude_ISO_Vel_rms": 1,
+          "Amplitude_ISO_Crest_rms": 1,
+          "Amplitude_Similar_Vel_rms": 1,
+          "Amplitude_Similar_Crest_rms": 1,
+          "Direction_Sequence_Vel_rms": 1,
+          "Direction_Sequence_1X": 1,
+          "Direction_Sequence_2X": 1,
+          "Direction_Sequence_3X": 1,
+          "Direction_Ratio_Vel_rms": 1,
+          "Direction_Ratio_1X": 1,
+          "Direction_Ratio_2X": 1,
+          "Direction_Ratio_3X": 1,
+          "Angle_Vel_rms": 1,
+          "Angle_1X": 1,
+          "Angle_2X": 1,
+          "Angle_3X": 1,
+          "Trend_Vel_rms": 1,
+          "Trend_1X": 1,
+          "Trend_2X": 1,
+          "Trend_3X": 1,
+          "Constant_Slope_Vel_rms": 1,
+          "Constant_Slope_1X": 1,
+          "Constant_Slope_2X": 1,
+          "Constant_Slope_3X": 1,
+          "Focus_Vel_rms": 1,
+          "Focus_1X": 1,
+          "Focus_2X": 1,
+          "Focus_3X": 1
+        },
+        "low_rpm": {
+          "1X_score": 1,
+          "2X_score": 1,
+          "3X_score": 1,
+          "sine_wave": 1,
+          "1X_2X_3X/harmonicas": 1,
+          "MW": 1,
+          "Amplitude_ISO_Vel_rms": 1,
+          "Amplitude_ISO_Crest_rms": 1,
+          "Amplitude_Similar_Vel_rms": 1,
+          "Amplitude_Similar_Crest_rms": 1,
+          "Direction_Sequence_Vel_rms": 1,
+          "Direction_Sequence_1X": 1,
+          "Direction_Sequence_2X": 1,
+          "Direction_Sequence_3X": 1,
+          "Direction_Ratio_Vel_rms": 1,
+          "Direction_Ratio_1X": 1,
+          "Direction_Ratio_2X": 1,
+          "Direction_Ratio_3X": 1,
+          "Angle_Vel_rms": 1,
+          "Angle_1X": 1,
+          "Angle_2X": 1,
+          "Angle_3X": 1,
+          "Trend_Vel_rms": 1,
+          "Trend_1X": 1,
+          "Trend_2X": 1,
+          "Trend_3X": 1,
+          "Constant_Slope_Vel_rms": 1,
+          "Constant_Slope_1X": 1,
+          "Constant_Slope_2X": 1,
+          "Constant_Slope_3X": 1,
+          "Focus_Vel_rms": 1,
+          "Focus_1X": 1,
+          "Focus_2X": 1,
+          "Focus_3X": 1
+        }
+      },
+      "Bearing Failure": {
+        "high_rpm": {
+          "acc_iso": 1,
+          "crest_iso": 1,
+          "kurt_iso": 1,
+          "acc_trend": 1,
+          "crest_trend": 1,
+          "kurt_trend": 1,
+          "hump_score": 1,
+          "BPFI_harmonics": 1,
+          "BSF_harmonics": 1,
+          "BPFO_harmonics": 1,
+          "FTF_harmonics": 1,
+          "model_prediction": 1,
+          "0_48X": 1,
+          "looseness_harmonics": 1,
+          "0_5X_harmonics": 1
+        },
+        "mid_rpm": {
+          "acc_iso": 1,
+          "crest_iso": 1,
+          "kurt_iso": 1,
+          "acc_trend": 1,
+          "crest_trend": 1,
+          "kurt_trend": 1,
+          "hump_score": 1,
+          "BPFI_harmonics": 1,
+          "BSF_harmonics": 1,
+          "BPFO_harmonics": 1,
+          "FTF_harmonics": 1,
+          "model_prediction": 1,
+          "0_48X": 1,
+          "looseness_harmonics": 1,
+          "0_5X_harmonics": 1
+        },
+        "low_rpm": {
+          "acc_iso": 1,
+          "crest_iso": 1,
+          "kurt_iso": 1,
+          "acc_trend": 1,
+          "crest_trend": 1,
+          "kurt_trend": 1,
+          "hump_score": 1,
+          "BPFI_harmonics": 1,
+          "BSF_harmonics": 1,
+          "BPFO_harmonics": 1,
+          "FTF_harmonics": 1,
+          "model_prediction": 1,
+          "0_48X": 1,
+          "looseness_harmonics": 1,
+          "0_5X_harmonics": 1
+        }
+      },
+      "Gear Failure": {
+        "high_rpm": {
+          "vel_iso": 1,
+          "crest_iso": 1,
+          "kurt_iso": 1,
+          "side_band": 1,
+          "impulse": 1,
+          "vel_trend": 1,
+          "crest_trend": 1,
+          "side_band_trend": 1,
+          "model_prediction": 1,
+          "gmf": 1,
+          "hump": 1
+        },
+        "mid_rpm": {
+          "vel_iso": 1,
+          "crest_iso": 1,
+          "kurt_iso": 1,
+          "side_band": 1,
+          "impulse": 1,
+          "vel_trend": 1,
+          "crest_trend": 1,
+          "side_band_trend": 1,
+          "model_prediction": 1,
+          "gmf": 1,
+          "hump": 1
+        },
+        "low_rpm": {
+          "vel_iso": 1,
+          "crest_iso": 1,
+          "kurt_iso": 1,
+          "side_band": 1,
+          "impulse": 1,
+          "vel_trend": 1,
+          "crest_trend": 1,
+          "side_band_trend": 1,
+          "model_prediction": 1,
+          "gmf": 1,
+          "hump": 1
+        }
+      }
+    }
+  },
+  "point_id": {
+    "01EPU01310300-05": {
+      "1": "68e2163c10084887cf4964d5",
+      "2": "68e2163c10084887cf4964d9",
+      "3": "68e2163c10084887cf4964df",
+      "4": "68e2163c10084887cf4964e3"
+    }
+  }
+}
