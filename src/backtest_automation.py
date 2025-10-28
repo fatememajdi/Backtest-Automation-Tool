@@ -9,7 +9,15 @@ from openpyxl import load_workbook
 from openpyxl.styles import PatternFill, Font, Alignment
 from openpyxl.utils import get_column_letter
 from machwise import Wise
+from dotenv import load_dotenv
+import os
+from dotenv import load_dotenv
+import os
 
+env_file = os.path.join(os.getcwd(), ".env")
+load_dotenv(env_file)
+
+API_KEY = os.getenv("API_KEY")
 
 def GetMachineInformation(lst_name, SelectedDate):
     """
@@ -24,7 +32,7 @@ def GetMachineInformation(lst_name, SelectedDate):
     """
 
     headers = {
-        "api-key": "e8i3jDdaemYZNtPDTlgE5kLfIbu"
+        "api-key": API_KEY
     }
     input_data = {
         'lst_name': lst_name,
@@ -61,7 +69,7 @@ def GetCompanyData(company_id, domain, company_domain):
 
     url = f"http://{domain}:4000/alldiagnosisinformations"
     headers = {
-        "api-key": "e8i3jDdaemYZNtPDTlgE5kLfIbu"
+        "api-key": API_KEY
     }
 
     input_data = {
