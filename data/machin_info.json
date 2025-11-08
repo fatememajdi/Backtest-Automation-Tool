@@ -58,6 +58,15 @@
   "fan_type": {
     "01EPU01310300-05": "over_hung"
   },
+  "power_transmission": {
+    "01EPU01310300-05": {
+      "2": {
+        "id": "68e2163c10084887cf4964dd",
+        "Type": "Coupling",
+        "Model": ""
+      }
+    }
+  },
   "bearing": {
     "01EPU01310300-05": {
       "1": [

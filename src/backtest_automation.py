@@ -42,7 +42,7 @@ def GetMachineInformation(lst_name, SelectedDate):
     }
 
     res = requests.post(
-        url=f"http://20.108.64.195:4000/pointinformations", json=input_data, headers=headers)
+        url=f"http://130.185.122.254:4000/pointinformations", json=input_data, headers=headers)
 
     print("Status code:", res.status_code)
 
@@ -533,7 +533,7 @@ def build_excel_multilevel(pre_json, post_json, output_path):
     return df
 
 
-def BackTestAuto(company_id, company_domain_before_backtest, company_domain_after_backtest, output_path, domain='20.108.64.195'):
+def BackTestAuto(company_id, company_domain_before_backtest, company_domain_after_backtest, output_path, domain='130.185.122.254'):
     """
     Automated backtest pipeline: fetch pre/post data, compare diagnostics,
     generate Excel report.
@@ -543,7 +543,7 @@ def BackTestAuto(company_id, company_domain_before_backtest, company_domain_afte
         company_domain_before_backtest (str): Domain for pre-test data.
         company_domain_after_backtest (str): Domain for post-test data.
         output_path (str): Path to save the final Excel report.
-        domain (str, optional): Server IP or domain. Defaults to '20.108.64.195'.
+        domain (str, optional): Server IP or domain. Defaults to '130.185.122.254'.
     """
     data_before_backtest = GetCompanyData(
         company_id, domain, company_domain_before_backtest)
